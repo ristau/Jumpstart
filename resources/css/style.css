@@ -1,10 +1,29 @@
 /* Universal Styles */
 
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 
+body {
+  font-family: "Open Sans";
+}
 
+nav {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+nav .active a {
+  color: #399bd1 !important;
+}
+
+/* Media Query Header  */
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand {
+    display: none; 
+  }
+}
 
 
 /* Footer */
